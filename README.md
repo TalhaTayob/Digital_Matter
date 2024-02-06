@@ -22,7 +22,7 @@ Change the ConnectionStrings in the appsettings.json file with key value pair be
 }
 
 The key,value "ConnectionStrings": {"DefaultConnection":" should be kept the same but everything from data source can be changed.
-note that the format should be kept the same, specifically, the double back slash"\" which is not shown above but is in the appsettings.json
+note that the format should be kept the same, specifically, the double back slash" \\ " which is not shown above but is in the appsettings.json
 and no spaces between "TrustServerCertificate=True"
 
 ------------------------------------------------------------------------------------------------------------------------------------------
