@@ -1,0 +1,256 @@
+USE [master]
+GO
+
+/****** Object:  Database [DigitalMatter]    Script Date: 2024/02/06 10:16:51 ******/
+CREATE DATABASE [DigitalMatter]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'DigitalMatter', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\DigitalMatter.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'DigitalMatter_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA\DigitalMatter_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [DigitalMatter].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+
+ALTER DATABASE [DigitalMatter] SET ANSI_NULL_DEFAULT OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET ANSI_NULLS OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET ANSI_PADDING OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET ANSI_WARNINGS OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET ARITHABORT OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET AUTO_CLOSE ON 
+GO
+
+ALTER DATABASE [DigitalMatter] SET AUTO_SHRINK OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET AUTO_UPDATE_STATISTICS ON 
+GO
+
+ALTER DATABASE [DigitalMatter] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET CURSOR_DEFAULT  GLOBAL 
+GO
+
+ALTER DATABASE [DigitalMatter] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET NUMERIC_ROUNDABORT OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET QUOTED_IDENTIFIER OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET RECURSIVE_TRIGGERS OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET  ENABLE_BROKER 
+GO
+
+ALTER DATABASE [DigitalMatter] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET TRUSTWORTHY OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET PARAMETERIZATION SIMPLE 
+GO
+
+ALTER DATABASE [DigitalMatter] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET HONOR_BROKER_PRIORITY OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET RECOVERY SIMPLE 
+GO
+
+ALTER DATABASE [DigitalMatter] SET  MULTI_USER 
+GO
+
+ALTER DATABASE [DigitalMatter] SET PAGE_VERIFY CHECKSUM  
+GO
+
+ALTER DATABASE [DigitalMatter] SET DB_CHAINING OFF 
+GO
+
+ALTER DATABASE [DigitalMatter] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+
+ALTER DATABASE [DigitalMatter] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+
+ALTER DATABASE [DigitalMatter] SET DELAYED_DURABILITY = DISABLED 
+GO
+
+ALTER DATABASE [DigitalMatter] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+
+ALTER DATABASE [DigitalMatter] SET QUERY_STORE = ON
+GO
+
+ALTER DATABASE [DigitalMatter] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
+
+ALTER DATABASE [DigitalMatter] SET  READ_WRITE 
+GO
+
+USE [DigitalMatter]
+GO
+
+/****** Object:  Table [dbo].[groupdb]    Script Date: 2024/02/06 10:18:12 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[groupdb](
+	[group_id] [int] IDENTITY(1,1) NOT NULL,
+	[group_name] [varchar](50) NOT NULL,
+	[parent_id] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[group_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[groupdb] ADD  DEFAULT (NULL) FOR [parent_id]
+GO
+
+USE [DigitalMatter]
+GO
+
+/****** Object:  Table [dbo].[devicedb]    Script Date: 2024/02/06 10:29:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[devicedb](
+	[device_id] [int] IDENTITY(1,1) NOT NULL,
+	[group_id] [int] NULL,
+	[device_name] [varchar](50) NOT NULL,
+	[firmware] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[device_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[devicedb] ADD  DEFAULT ((1.00)) FOR [firmware]
+GO
+
+ALTER TABLE [dbo].[devicedb]  WITH CHECK ADD FOREIGN KEY([group_id])
+REFERENCES [dbo].[groupdb] ([group_id])
+GO
+
+USE [DigitalMatter]
+GO
+
+/****** Object:  Table [dbo].[Firmware]    Script Date: 2024/02/06 10:17:51 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Firmware](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[device_id] [int] NULL,
+	[firmware] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Firmware] ADD  DEFAULT ((1.00)) FOR [firmware]
+GO
+
+ALTER TABLE [dbo].[Firmware]  WITH CHECK ADD FOREIGN KEY([device_id])
+REFERENCES [dbo].[devicedb] ([device_id])
+ON DELETE CASCADE
+GO
+
+INSERT INTO groupdb(group_name,parent_id)
+VALUES
+('Group 1',NULL),
+('Group 2',1),
+('Group 3',1),
+('Group 4',2),
+('Group 5',3),
+('Group 6',3),
+('Group 7',6);
+
+GO
+
+INSERT INTO devicedb(group_id,device_name,firmware)
+VALUES
+(1,'device 1',1.00),
+(1,'device 2',1.00),
+(2,'device 3',1.00),
+(3,'device 4',1.00),
+(4,'device 5',1.00),
+(4,'device 6',1.00),
+(5,'device 7',1.00),
+(6,'device 8',1.00),
+(7,'device 9',1.00),
+(7,'device 10',1.00);
+
+GO
+
+INSERT INTO Firmware(device_id,firmware)
+VALUES
+(1,1.13),
+(1,1.14),
+(1,1.15),
+(2,1.26),
+(2,1.27),
+(2,1.28),
+(3,1.37),
+(3,1.35),
+(4,1.40),
+(5,1.50),
+(6,1.60),
+(7,1.70),
+(8,1.80),
+(9,1.90),
+(10,2.00),
+(1,1.00),
+(2,1.00),
+(3,1.00),
+(4,1.00),
+(5,1.00),
+(6,1.00),
+(7,1.00),
+(8,1.00),
+(9,1.00),
+(10,1.00);
+
+GO

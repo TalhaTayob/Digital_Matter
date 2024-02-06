@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalMatter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38a67174fbdca99c86ca3162956c96e571405033")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalMatter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalMatter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

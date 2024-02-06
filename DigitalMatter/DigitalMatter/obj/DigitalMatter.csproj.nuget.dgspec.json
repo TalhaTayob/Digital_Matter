@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj": {}
+    "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\Digital_Matter\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj": {
+    "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\Digital_Matter\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj",
+        "projectUniqueName": "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\Digital_Matter\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj",
         "projectName": "DigitalMatter",
-        "projectPath": "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj",
+        "projectPath": "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\Digital_Matter\\DigitalMatter\\DigitalMatter\\DigitalMatter.csproj",
         "packagesPath": "C:\\Users\\Talha Tayob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\DigitalMatter\\DigitalMatter\\obj\\",
+        "outputPath": "C:\\Users\\Talha Tayob\\Desktop\\digital matter\\Digital Matter assignment\\Digital_Matter\\DigitalMatter\\DigitalMatter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Talha Tayob\\AppData\\Roaming\\NuGet\\NuGet.Config",
