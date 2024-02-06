@@ -1,0 +1,35 @@
+﻿@page
+@model DigitalMatter.Pages.Devices.IndexModel
+@{
+}
+
+<br>
+<h1>Groups</h1>
+<a class='btn btn-primary btn-sm' href='Devices/Create'>New Group</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>parent_id</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.groups)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.parent_id</td>
+                <td>
+                    <a class='btn btn-info btn-sm' href="Devices/Device?id=@item.id">View devices</a>
+                </td>        
+                <td>
+                    <a class="btn btn-primary btn-sm" href="Devices/Edit?id=@item.id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="Devices/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,80 @@
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\appsettings.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.staticwebassets.runtime.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.exe
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.deps.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.runtimeconfig.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.pdb
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.csproj.AssemblyReference.cache
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.AssemblyInfoInputs.cache
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.AssemblyInfo.cs
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.csproj.CoreCompileInputs.cache
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.RazorAssemblyInfo.cache
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.RazorAssemblyInfo.cs
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.DigitalMatter.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.build.DigitalMatter.props
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DigitalMatter.props
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DigitalMatter.props
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\scopedcss\bundle\DigitalMatter.styles.css
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\scopedcss\projectbundle\DigitalMatter.bundle.scp.css
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.csproj.CopyComplete
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\refint\DigitalMatter.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.pdb
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.genruntimeconfig.cache
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\obj\Debug\net8.0\ref\DigitalMatter.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Talha Tayob\source\repos\DigitalMatter\DigitalMatter\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\appsettings.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.staticwebassets.runtime.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.exe
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.deps.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.runtimeconfig.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\DigitalMatter.pdb
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.csproj.AssemblyReference.cache
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.AssemblyInfoInputs.cache
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.AssemblyInfo.cs
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.csproj.CoreCompileInputs.cache
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.RazorAssemblyInfo.cache
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.RazorAssemblyInfo.cs
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.DigitalMatter.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.build.DigitalMatter.props
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DigitalMatter.props
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DigitalMatter.props
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\scopedcss\bundle\DigitalMatter.styles.css
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\scopedcss\projectbundle\DigitalMatter.bundle.scp.css
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.csproj.CopyComplete
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\refint\DigitalMatter.dll
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.pdb
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\DigitalMatter.genruntimeconfig.cache
+C:\Users\Talha Tayob\Desktop\digital matter\Digital Matter assignment\DigitalMatter\DigitalMatter\obj\Debug\net8.0\ref\DigitalMatter.dll

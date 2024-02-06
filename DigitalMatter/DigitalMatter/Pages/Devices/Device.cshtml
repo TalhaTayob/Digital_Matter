@@ -1,0 +1,42 @@
+﻿@page
+@model DigitalMatter.Pages.Devices.DeviceModel
+@{
+}
+
+<br>
+<h1>Devices</h1>
+
+<a class='btn btn-primary btn-sm' href='Dcreate'>New Device</a>
+
+<table class="table">
+<thead>
+    <tr>
+        <th>device_id</th>
+        <th>group_id</th>
+        <th>device_name</th>
+        <th>firmware</th>
+        <th>Edit device</th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var item in Model.dev)
+    {
+        <tr>
+            <td>@item.device_id</td>
+            <td>@item.group_id</td>
+            <td>@item.device_name</td>
+            <td>
+            <a class="btn btn-info btn-sm" href="Firmware?id=@item.device_id">@item.firmware</a>
+            </td>
+            <td>
+                    <a class="btn btn-info btn-sm" href="Dedit?id=@item.device_id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="Ddelete?id=@item.device_id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</tbody>
+</table>
+
+
+@*<input type="hidden" name="id" value="Model.groupdb.id">*@

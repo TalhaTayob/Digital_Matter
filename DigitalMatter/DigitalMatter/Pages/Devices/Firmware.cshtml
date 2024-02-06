@@ -1,0 +1,63 @@
+﻿@page
+@model DigitalMatter.Pages.Devices.FirmwareModel
+@{
+}
+
+<br>
+@*<body>
+    @foreach (string item in Model.fware)
+    {
+        @item
+    }
+
+
+</body>*@
+
+
+<h2>Available firmware for selected device</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>firmware versions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (string item in Model.fware)
+        {
+            <tr>
+           <td> @item</td>
+           </tr>
+        }
+
+    </tbody>
+</table>
+
+<div class="row mb-3">
+    <label class="col-sm-4 col-form-label">Current firmware</label>
+    <div class="col-sm-8">
+        @Model.cfirmware
+    </div>
+</div>
+
+<h3>Choose a different firmware below</h3>
+<form method="post">
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Firmware versions</label>
+        <div class="col-sm-8">
+            <select class="form-select" name="firmware_version">
+                @foreach (string item in Model.fware)
+                {
+                    <option value="@item">@item</option>
+                }
+
+            </select>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="offset-sm-4 col-sm-4 d-grid">
+            <button type="submit" class="btn btn-warning">Change_Firmware</button>
+        </div>
+    </div>
+</form>

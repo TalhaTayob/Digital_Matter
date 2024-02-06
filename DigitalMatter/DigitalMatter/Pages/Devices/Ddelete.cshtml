@@ -1,0 +1,28 @@
+﻿@page
+@model DigitalMatter.Pages.Devices.DdeleteModel
+@{
+}
+
+<br>
+<h3>Are you sure you want to delete Device with ID @Model.delete_id?</h3>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<form method="POST">
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Confirm</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Back</a>
+        </div>
+    </div>
+
+</form>
